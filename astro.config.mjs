@@ -7,6 +7,7 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://EladioCG.github.io',
+  base: '/EladioCG',
   vite: {
       plugins: [tailwindcss()],
   },
